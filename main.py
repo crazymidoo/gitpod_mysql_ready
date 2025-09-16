@@ -8,4 +8,4 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("CREATE DATABASE IF NOT EXISTS mydatabase")
+mycursor.execute("CREATE DATABASE IF NOT EXISTS mydatabase") 
